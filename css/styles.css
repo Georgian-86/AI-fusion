@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #b9e1f9;
 }
 
 header .logo {
-  font-size: 24px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -23,16 +23,16 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 15px 25px; /* Increase padding for larger clickable area */
   font-size: 18px; /* Increase font size for better visibility */
-  background-color: #007bff; /* Blue background for navbar items */
+  background-color: #526980; /* Blue background for navbar items */
   transition: background-color 0.3s, transform 0.3s; /* Animation for hover effect */
 }
 
 header .user-actions button {
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin-left: 10px;
   border: none;
   border-radius: 5px;
@@ -40,7 +40,7 @@ header .user-actions button {
 }
 
 header .search-bar input {
-  padding: 10px;
+  padding: 08px;
   border: none;
   border-radius: 5px;
 }
@@ -51,7 +51,7 @@ header .search-bar input {
   background-position: center;
   color: rgb(54, 11, 11);
   text-align: center;
-  padding: 100px 20px;
+  padding: 20px 20px;
 }
 
 #hero h1 {
@@ -122,7 +122,7 @@ footer .newsletter button {
   background: url('../environment.webp') no-repeat center center;
   background-size: cover; /* Ensure the image covers the entire section */
   color: rgb(14, 14, 14);
-  padding: 150px 20px; /* Increased padding for more height */
+  padding: 100px 20px; /* Increased padding for more height */
   text-align: center;
 }
 
@@ -142,7 +142,7 @@ footer .newsletter button {
 section {
   margin: 20px;
   padding: 40px; /* Increased padding for more space */
-  background: #e0f7fa; /* Changed to a light blue color */
+  background: #fcf7fe; /* Changed to a light blue color */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
